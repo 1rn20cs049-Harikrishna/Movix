@@ -1,11 +1,11 @@
 import { useState } from "react";
 
+import  VideoPopup  from "../../../components/videoPopup/VideoPopup";
 import "./style.scss";
 
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import  {PlayIcon}  from "../Playbtn";
 
-import  VideoPopup  from "../../../components/videoPopup/VideoPopup";
 
 import Img from "../../../components/lazyLoadImage/Img";
 
@@ -13,6 +13,7 @@ import Img from "../../../components/lazyLoadImage/Img";
 const VideosSection = ({ data, loading }) => {
     const [show, setShow] = useState(false);
     const [videoId, setVideoId] = useState(null);
+    
 
 
     const loadingSkeleton = () => {
