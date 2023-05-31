@@ -12,7 +12,7 @@ import CircleRating from "../../../components/circleRating/CircleRating";
 import Img from "../../../components/lazyLoadImage/Img.jsx";
 import PosterFallback from "../../../assets/no-poster.png";
 
-import VideoPopup from "../../../components/videoPopUp/VideoPopup";
+// import VideoPopup from "../../../components/videoPopUp/VideoPopup";
 import { PlayIcon } from "../Playbtn";
 
 
@@ -187,14 +187,11 @@ director?.map(i => console.log(i.name))
                             </div>
                             </div>
 
-                            <VideoPopup 
+                            {/* <VideoPopup 
                               show={show} 
                               setShow={setShow}
                               videoId={videoId}
-                              setVideoId={setVideoId}
-
-
-                              />
+                              setVideoId={setVideoId} /> */}
                         </ContentWrapper>
                     </React.Fragment>
 
