@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import  VideoPopup  from "../../../components/videoPopup/VideoPopup";
+// import  VideoPopup  from "../../../components/videoPopup/VideoPopup";
 import "./style.scss";
 
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
@@ -63,12 +63,12 @@ const VideosSection = ({ data, loading }) => {
                     </div>
                 )}
             </ContentWrapper>
-            <VideoPopup
+            {/* <VideoPopup
                 show={show}
                 setShow={setShow}
                 videoId={videoId}
                 setVideoId={setVideoId}
-            />
+            /> */}
         </div>
     );
 };
