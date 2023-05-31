@@ -3,9 +3,10 @@ import { useState } from "react";
 import "./style.scss";
 
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
-import  PlayIcon  from "../PlayIcon";
+import {PlayIcon} from '../PlayIcon'
 import VideoPopup from "../../../components/videoPopup/VideoPopup";
 import Img from "../../../components/lazyLoadImage/Img";
+
 
 const VideosSection = ({ data, loading }) => {
     const [show, setShow] = useState(false);
