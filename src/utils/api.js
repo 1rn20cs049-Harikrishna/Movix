@@ -19,4 +19,3 @@ export const fetchDataFromApi = async (url,params)=>{
     }
 }
 
-// c3aed5d30434a7732bf1b992870780ff API-KEY
